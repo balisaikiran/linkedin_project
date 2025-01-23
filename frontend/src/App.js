@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ClickerGame from './components/ClickerGame';
+import ClickerGame from '../components/ClickerGame';
 
 function App() {
   return (
