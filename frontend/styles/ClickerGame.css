@@ -1,0 +1,40 @@
+.clicker-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.clicker-button {
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.1s, background-color 0.3s;
+}
+
+.clicker-button:active {
+  transform: scale(0.95);
+}
+
+.clicker-button:hover {
+  background-color: #45a049;
+}
+
+.stats {
+  margin: 2rem 0;
+  font-size: 1.2rem;
+}
+
+.message {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #4CAF50;
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+} 
